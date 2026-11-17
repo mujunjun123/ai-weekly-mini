@@ -1,0 +1,1 @@
+{"triggers":[{"name":"weeklyFiveHourCheck","type":"timer","config":"0 0 * * * * *"}]}
