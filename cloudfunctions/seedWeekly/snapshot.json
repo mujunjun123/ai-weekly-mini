@@ -1,8 +1,10 @@
 {
-  "updatedAt": "2026-11-17T23:40:09+08:00",
+  "updatedAt": "2026-11-18T00:38:16+08:00",
   "source": "https://github.com/trending?since=weekly",
   "scope": "GitHub Trending 官方周榜中的 AI 相关项目，按本周新增 Star 排序；关键词筛选，不代表全站排名。",
   "period": "GitHub 本周（来源口径）",
+  "sourceSha256": "984baf38c040a5c5f8efc48ee943661d86c9337c477c610fa37f165da2749ef3",
+  "schemaVersion": 1,
   "projects": [
     {
       "id": "meta/astryx",
@@ -13,13 +15,13 @@
       "desc": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "sourceRank": 3,
-      "totalStars": 29983,
+      "totalStars": 30000,
       "currentPeriodStars": 10939,
       "summary": "可自由定制的开源设计系统，方便 AI Agent 使用。",
       "category": "设计",
       "color": "#f5a8d3",
       "growth": 10939,
-      "stars": "29,983",
+      "stars": "30,000",
       "rank": 1
     },
     {
@@ -31,13 +33,13 @@
       "desc": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
       "sourceRank": 1,
-      "totalStars": 8308,
+      "totalStars": 8326,
       "currentPeriodStars": 6542,
       "summary": "给编程 Agent 补上最新的 Web 开发实践。",
       "category": "开发流程",
       "color": "#ffcb91",
       "growth": 6542,
-      "stars": "8,308",
+      "stars": "8,326",
       "rank": 2
     },
     {
@@ -49,13 +51,13 @@
       "desc": "Public repository for Agent Skills",
       "language": "Python",
       "sourceRank": 6,
-      "totalStars": 196522,
+      "totalStars": 196544,
       "currentPeriodStars": 5666,
       "summary": "把专业任务封装成 Agent 可以调用的技能。",
       "category": "技能框架",
       "color": "#8fcfff",
       "growth": 5666,
-      "stars": "196,522",
+      "stars": "196,544",
       "rank": 3
     },
     {
@@ -67,13 +69,13 @@
       "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
       "sourceRank": 5,
-      "totalStars": 73028,
+      "totalStars": 73037,
       "currentPeriodStars": 4355,
       "summary": "用 AI 汇总行情与新闻，生成股票分析并自动推送。",
       "category": "投资分析",
       "color": "#a5d9ba",
       "growth": 4355,
-      "stars": "73,028",
+      "stars": "73,037",
       "rank": 4
     },
     {
@@ -85,13 +87,13 @@
       "desc": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
       "sourceRank": 14,
-      "totalStars": 118571,
+      "totalStars": 118579,
       "currentPeriodStars": 3960,
       "summary": "给 AI 编程助手配上一套实用的工程技能。",
       "category": "技能框架",
       "color": "#8fcfff",
       "growth": 3960,
-      "stars": "118,571",
+      "stars": "118,579",
       "rank": 5
     },
     {
@@ -103,13 +105,13 @@
       "desc": "Browser automation CLI for AI agents",
       "language": "Rust",
       "sourceRank": 9,
-      "totalStars": 52265,
+      "totalStars": 52282,
       "currentPeriodStars": 3760,
       "summary": "让 AI Agent 通过命令行操作浏览器。",
       "category": "自动化",
       "color": "#96e2ac",
       "growth": 3760,
-      "stars": "52,265",
+      "stars": "52,282",
       "rank": 6
     },
     {
@@ -121,13 +123,13 @@
       "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "sourceRank": 8,
-      "totalStars": 53505,
+      "totalStars": 53532,
       "currentPeriodStars": 3056,
       "summary": "结合规则检查与 AI，自动审查代码并定位问题。",
       "category": "代码审查",
       "color": "#aabfff",
       "growth": 3056,
-      "stars": "53,505",
+      "stars": "53,532",
       "rank": 7
     },
     {
@@ -139,13 +141,13 @@
       "desc": "Chrome DevTools for coding agents",
       "language": "TypeScript",
       "sourceRank": 10,
-      "totalStars": 57980,
+      "totalStars": 57985,
       "currentPeriodStars": 2593,
       "summary": "让编程 Agent 接入 Chrome 开发者工具调试网页。",
       "category": "浏览调试",
       "color": "#b8c9f8",
       "growth": 2593,
-      "stars": "57,980",
+      "stars": "57,985",
       "rank": 8
     },
     {
@@ -157,13 +159,13 @@
       "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
       "sourceRank": 11,
-      "totalStars": 6778,
+      "totalStars": 6789,
       "currentPeriodStars": 2407,
       "summary": "给 Claude 配上市场分析、选股与交易研究技能。",
       "category": "投资分析",
       "color": "#a5d9ba",
       "growth": 2407,
-      "stars": "6,778",
+      "stars": "6,789",
       "rank": 9
     },
     {
@@ -175,13 +177,13 @@
       "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
       "sourceRank": 13,
-      "totalStars": 13894,
+      "totalStars": 13903,
       "currentPeriodStars": 2352,
       "summary": "用 Codex 查找、验证并修复代码中的安全漏洞。",
       "category": "安全审计",
       "color": "#ffab96",
       "growth": 2352,
-      "stars": "13,894",
+      "stars": "13,903",
       "rank": 10
     },
     {
@@ -193,13 +195,13 @@
       "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
       "sourceRank": 2,
-      "totalStars": 12944,
+      "totalStars": 12953,
       "currentPeriodStars": 2325,
       "summary": "集中批注计划与代码，一键把反馈交给 Agent。",
       "category": "开发流程",
       "color": "#ffcb91",
       "growth": 2325,
-      "stars": "12,944",
+      "stars": "12,953",
       "rank": 11
     },
     {
@@ -211,13 +213,13 @@
       "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
       "sourceRank": 7,
-      "totalStars": 8501,
+      "totalStars": 8605,
       "currentPeriodStars": 1747,
       "summary": "给 Claude Code 配上漏洞挖掘与安全测试技能。",
       "category": "安全审计",
       "color": "#ffab96",
       "growth": 1747,
-      "stars": "8,501",
+      "stars": "8,605",
       "rank": 12
     },
     {
@@ -229,16 +231,14 @@
       "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
       "sourceRank": 12,
-      "totalStars": 9969,
+      "totalStars": 9987,
       "currentPeriodStars": 943,
       "summary": "为 Stitch 配套 Agent 技能，兼容多种 AI 编程工具。",
       "category": "技能框架",
       "color": "#8fcfff",
       "growth": 943,
-      "stars": "9,969",
+      "stars": "9,987",
       "rank": 13
     }
-  ],
-  "sourceSha256": "ad58b07b19047f9a3464717b4058e73d890ddfd583fe2c349e4de052517937fa",
-  "schemaVersion": 1
+  ]
 }
