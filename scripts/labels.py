@@ -1,0 +1,30 @@
+"""Short editorial labels based on repository purpose; not GitHub categories."""
+import re
+COLORS={'逆向':'#ff958e','技能框架':'#8fcfff','设计':'#f5a8d3','Agent':'#ffe04b','开发流程':'#ffcb91','自动化':'#96e2ac','界面':'#c6a6f5','框架':'#85d4d3','流程编排':'#e7bd87','安全审计':'#ffab96','代码审查':'#aabfff','投资分析':'#a5d9ba','浏览调试':'#b8c9f8','AI工具':'#c3d0d7'}
+LABELS={'meta/astryx':'设计','googlechrome/modern-web-guidance-src':'开发流程','anthropics/skills':'技能框架','zhulinsen/daily_stock_analysis':'投资分析','addyosmani/agent-skills':'技能框架','vercel-labs/agent-browser':'自动化','alibaba/open-code-review':'代码审查','chromedevtools/chrome-devtools-mcp':'浏览调试','tradermonty/claude-trading-skills':'投资分析','openai/codex-security':'安全审计','backnotprop/plannotator':'开发流程','elementalsouls/claude-bughunter':'安全审计','google-labs-code/stitch-skills':'技能框架'}
+def classify(name,desc):
+ label=LABELS.get(name.lower())
+ if not label:
+  text=name+' '+desc
+  rules=[('逆向',r'reverse.engineer|逆向'),('安全审计',r'security|vulnerabilit|bug.hunt'),('代码审查',r'code.review'),('设计',r'design.system|ui.ux'),('技能框架',r'\bskills?\b'),('流程编排',r'orchestrat|workflow'),('自动化',r'automation'),('界面',r'webui|user.interface'),('框架',r'framework'),('Agent',r'\bagents?\b')]
+  label=next((label for label,pattern in rules if re.search(pattern,text,re.I)),'AI工具')
+ return label,COLORS[label]
+
+SUMMARIES = {
+ 'meta/astryx': '可自由定制的开源设计系统，方便 AI Agent 使用。',
+ 'googlechrome/modern-web-guidance-src': '给编程 Agent 补上最新的 Web 开发实践。',
+ 'anthropics/skills': '把专业任务封装成 Agent 可以调用的技能。',
+ 'zhulinsen/daily_stock_analysis': '用 AI 汇总行情与新闻，生成股票分析并自动推送。',
+ 'addyosmani/agent-skills': '给 AI 编程助手配上一套实用的工程技能。',
+ 'vercel-labs/agent-browser': '让 AI Agent 通过命令行操作浏览器。',
+ 'alibaba/open-code-review': '结合规则检查与 AI，自动审查代码并定位问题。',
+ 'chromedevtools/chrome-devtools-mcp': '让编程 Agent 接入 Chrome 开发者工具调试网页。',
+ 'tradermonty/claude-trading-skills': '给 Claude 配上市场分析、选股与交易研究技能。',
+ 'openai/codex-security': '用 Codex 查找、验证并修复代码中的安全漏洞。',
+ 'backnotprop/plannotator': '集中批注计划与代码，一键把反馈交给 Agent。',
+ 'elementalsouls/claude-bughunter': '给 Claude Code 配上漏洞挖掘与安全测试技能。',
+ 'google-labs-code/stitch-skills': '为 Stitch 配套 Agent 技能，兼容多种 AI 编程工具。',
+}
+def summarize(name, desc):
+ # Keep unseen descriptions factual until an editorial Chinese summary exists.
+ return SUMMARIES.get(name.lower(), desc)

@@ -1,0 +1,10 @@
+# Replace with a domain you own, configure its DNS, review provider costs first.
+weekly.example.com {
+  @weekly path /v1/weekly
+  handle @weekly {
+    reverse_proxy 127.0.0.1:8767
+  }
+  handle {
+    respond "Not Found" 404
+  }
+}

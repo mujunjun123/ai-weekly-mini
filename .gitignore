@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+project.private.config.json
+data/snapshots/
+data/.update.lock
+data/source-latest.html

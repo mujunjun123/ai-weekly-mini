@@ -1,0 +1,12 @@
+{
+  "description": "AI 开源周榜演示小程序",
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
+  "appid": "wxd8d3bf175adffcf0",
+  "projectname": "ai-weekly",
+  "setting": {
+    "es6": true,
+    "minified": true
+  },
+  "cloudfunctionRoot": "cloudfunctions/"
+}

@@ -1,0 +1,1 @@
+module.exports = {"updatedAt": "2026-11-17T23:40:09+08:00", "source": "https://github.com/trending?since=weekly", "scope": "GitHub Trending 官方周榜中的 AI 相关项目，按本周新增 Star 排序；关键词筛选，不代表全站排名。", "period": "GitHub 本周（来源口径）", "sourceSha256": "ad58b07b19047f9a3464717b4058e73d890ddfd583fe2c349e4de052517937fa"};

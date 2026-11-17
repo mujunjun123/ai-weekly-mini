@@ -1,0 +1,7 @@
+[Unit]
+Description=Collect GitHub weekly snapshot
+[Service]
+Type=oneshot
+User=weekly
+WorkingDirectory=/opt/ai-weekly-mini
+ExecStart=/opt/ai-weekly-mini/.venv/bin/python scripts/update.py

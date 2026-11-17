@@ -1,0 +1,13 @@
+[Unit]
+Description=Read-only weekly API (loopback)
+After=network.target
+[Service]
+User=weekly
+WorkingDirectory=/opt/ai-weekly-mini
+ExecStart=/opt/ai-weekly-mini/.venv/bin/python scripts/api.py
+Restart=on-failure
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+[Install]
+WantedBy=multi-user.target
